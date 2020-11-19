@@ -19,6 +19,6 @@ int main()
     cout << "write c: ";
     cin >> c;
     unsigned short int x = ~f | e & ~(c ^ d);
-    cout << "!f V e ^ !(c+d) <=> " << showbase << hex << setw(8) << setfill('0') << x;
+    cout << "!f V e ^ !(c+d) <=> " << showbase << hex << setw(6) << setfill('0') << internal << x;
     return 0;
 }
